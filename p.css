@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.1%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top:7rem ;
+    z-index: 10000;
+}
+header{
+    position: fixed;
+    top: 0;right: 0;left: 0;
+    background: #fff;
+    /* padding: 2rem 9%; */
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem rgba(0,0,0,.1);
+    display: flex;
+}
+.header-1{
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+   padding: 1rem;
+   background: rgb(20, 172, 198);
+   width: 100%;
+  
+}
+.header-1 .logo{
+    margin: 0 2rem;
+    font-size: 3rem;
+}
+.header-1 .navbar{
+    display: block;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+.header-1 .navbar a{
+    color: black;
+    padding: 0 1rem;
+}
+.header-1 .navbar a:hover{
+    color: gold;
+}
+.header-1 .search{
+    display:block ;
+   padding-left: 5rem;
+    float: right;
+}
+.header-1 .search input{
+    height: 3rem;
+    width: 35rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    /* padding: 5rem; */
+    margin-bottom: 1rem;
+}
+.header-1 .search .btn{
+    padding: .1rem;
+
+}
+.header-1 .icons{
+   margin-left: 20rem;
+    font-size: 2rem;
+}
+.container-slider{
+   margin-left: 1rem;
+margin: 1rem;
+margin-bottom: 1rem;
+}
+ .home-slider{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+    border-top: 1rem;
+}
+.home-slider .box{
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 55rem;
+    position: relative;
+
+}
+ .home-slider .box .content{
+      position: absolute;
+      top:50% ; left: 5%;
+      transform: translateY(-50%);
+      max-width: 50rem;
+} 
+.home-slider .box .content span{
+    font-size: 3rem;
+    color: rgb(218, 92, 232);
+
+}
+ .home-slider .box .content h3{
+    font-size: 6rem;
+    color: rgb(216, 89, 89);
+    padding: .5rem 0;
+    
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--green);
+    padding: 0.8rem 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border: .1rem solid rgb(246, 233, 233);
+}
+.btn:hover{
+    background: #333;
+}
+.about{
+    margin: 0;
+    
+}
+.about .about-box{
+    background: black;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    padding: 15rem 20rem;
+}
+.about .about-box h3{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    
+}
+.about .about-box .content{
+    color: white;
+}
+.about .about-box .c{
+    padding: 1rem;
+}
+.about .about-box p{
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2rem;
+}
+.about .about-box p span{
+    color: red;
+}
+.about .container-box{
+    display: flex;
+    align-items: center;
+}
+.about .container-box .box{
+    flex: 1 1 20rem;
+}
+.about .container-box .box h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.about .container-box .box a{
+   background-color: red;
+   padding: 3rem;
+   font-size: 2rem;
+
+}
+.img .container-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    padding-left: 2rem;
+    
+
+}
+.img .container-img .size{
+    /* flex: 2 2 10rem; */
+    position: relative;
+    padding: 0 0;
+}
+.img .container-img .size img{
+    height: 20rem;
+    width: 20rem;
+   
+}
+.img .container-img .size .content{
+    position: absolute;
+    left: 2rem; bottom: 2rem;
+    overflow-x: hidden;
+    color: #fff;
+
+}
+.baaner .banner-container{
+    
+    
+    
+}
+.baaner .banner-container .box{
+    background: url('img/n1.jpg');
+    height: 30rem;
+    width: 130rem;
+}
+.baaner .banner-container .box .content{
+    text-align: center;
+    color: #fff;
+}
+.baaner .banner-container .box .content h3{
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.baaner .banner-container .box .content .container-box{
+    display: flex;
+    flex-wrap:wrap;
+   justify-content: center;
+   padding-top: 5rem;
+} 
+.baaner .banner-container .box .content .container-box .box-1{
+    padding: 3rem;
+    border: .1rem solid rgb(246, 233, 233);
+    margin: 2rem 2rem;
+}
+.baaner .banner-container .box .content .container-box .box-1 h2{
+    font-size: 3rem;
+    color: gold;
+    font-weight: 200;
+}
+.baaner .banner-container .box .content .container-box .box-1 span{
+    font-size: 2.5rem;
+    color: red;
+}
+
+
+
+
+
+
+
+
